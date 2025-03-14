@@ -27,7 +27,7 @@ Set breakpoints at key functions:
 break main
 break updateAllNodeValues
 ```
-![Example](/home/suraj/Pictures/Screenshots/SettingBreakpoint.png)
+![Example](SettingBreakpoint.png)
 
 
 ## 4. Run the Program
@@ -35,7 +35,7 @@ Start the program in GDB:
 ```
 run
 ```
-![Example](/home/suraj/Pictures/Screenshots/run.png)
+![Example](run.png)
 
 
 ## 5. Step Through the Code(Use to enter a particular function)
@@ -44,14 +44,14 @@ And continue to pass the the function and move forward to next breakPoint i.e up
 next
 continue
 ```
-![Example](/home/suraj/Pictures/Screenshots/next_continue.png)
+![Example](next_continue.png)
 
 Use next to step through the code line by line:
-![Example](/home/suraj/Pictures/Screenshots/step.png)
+![Example](step.png)
 
 
 ## 5. Identify the Segmentation Fault
-![Example](/home/suraj/Pictures/Screenshots/segmenationError.png)
+![Example](segmenationError.png)
 
 When the program crashes, use backtrace to identify the issue: 
 ## backtrace cmd help to us to show the memory address and line number where error occurred.
