@@ -3,11 +3,11 @@ This is a simple C program that demonstrates the use of a linked list.The progra
 how to debug issues like segmentation faults and invalid memory access using open source GDB tool.
 
 # About Program
-## The program performs the following tasks:
-## Creates a linked list with initial values.
-## Inserts a new node at the end of the list.
-## Updates all node values based on user input.
-## Prints the linked list.
+### The program performs the following tasks:
+### Creates a linked list with initial values.
+### Inserts a new node at the end of the list.
+### Updates all node values based on user input.
+### Prints the linked list.
 The program includes intentional bugs in the updateAllNodeValues function to demonstrate how to use GDB tool to debugg the program.
 
 ## How to Compile and Run using GDB
@@ -19,7 +19,7 @@ Execute the compiled program:
 ```
 gdb ./debug
 `````
-![Example](/home/suraj/Pictures/Screenshots/StaringGDB.png)
+![Example](StaringGDB.png)
 
 ## 3. Set Breakpoints
 Set breakpoints at key functions:
