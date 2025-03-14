@@ -1,19 +1,21 @@
 # Linked List Program with Debugging Example
-This is a simple C program that demonstrates the use of a linked list.The program includes intentional bugs to showcase 
-how to debug issues like segmentation faults and invalid memory access using open source GDB tool.
+This is a simple C program that make use of a linked list & demonstrate the debugging technique uisng GDB tool.The program includes intentional bugs to showcase how to debug issues like segmentation faults or invalid memory access using open source GDB tool.
 
 # About Program
 ### The program performs the following tasks:
-### Creates a linked list with initial values.
-### Inserts a new node at the end of the list.
-### Updates all node values based on user input.
-### Prints the linked list.
+Creates a linked list with initial values.
+Inserts a new node at the end of the list.
+Updates all node values based on user input.
+Prints the linked list.
 The program includes intentional bugs in the updateAllNodeValues function to demonstrate how to use GDB tool to debugg the program.
 
-## How to Compile and Run using GDB
+# How to Compile and Run using GDB
 ## 1. Compile the Program
 Compile the program with debugging symbols using gcc:
-``` gcc -g -o debug updateVal.c ```
+```
+gcc -g -o debug updateVal.c
+```
+
 ## 2. Run the Program
 Execute the compiled program:
 ```
@@ -38,8 +40,10 @@ run
 ![Example](run.png)
 
 
-## 5. Step Through the Code(Use to enter a particular function)
+## 5. Step Through the Code
 And continue to pass the the function and move forward to next breakPoint i.e updateAllNode.
+next - command used to go to next line.
+continue  - Resume the program after it has hit the breakpoint
 ```
 next
 continue
@@ -54,7 +58,7 @@ Use next to step through the code line by line:
 ![Example](segmenationError.png)
 
 When the program crashes, use backtrace to identify the issue: 
-## backtrace cmd help to us to show the memory address and line number where error occurred.
+## backtrace cmd help us to show the memory address and line number where error occurred.
 ```
 backtrace
 ```
